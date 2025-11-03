@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 204 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.47.143:3000/
+1:41:51 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/StoryScroll.jsx:5:51: ERROR: Expected ")" but found ":"
+1:41:52 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/StoryScroll.jsx:5:51: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/StoryScroll.jsx:5:51
+  
+  Expected ")" but found ":"
+  3  |  import { Sparkles, Cpu, Palette, Code2 } from 'lucide-react';
+  4  |  
+  5  |  const Chapter = ({ icon: Icon, title, text, index }: { icon: any; title: string; text: string; index: number }) => {
+     |                                                     ^
+  6  |    const ref = useRef<HTMLDivElement | null>(null);
+  7  |    const inView = useInView(ref, { once: true, margin: '-100px' });
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+1:42:16 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/StoryScroll.jsx:5:51: ERROR: Expected ")" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/StoryScroll.jsx:5:51
+  
+  Expected ")" but found ":"
+  3  |  import { Sparkles, Cpu, Palette, Code2 } from 'lucide-react';
+  4  |  
+  5  |  const Chapter = ({ icon: Icon, title, text, index }: { icon: any; title: string; text: string; index: number }) => {
+     |                                                     ^
+  6  |    const ref = useRef<HTMLDivElement | null>(null);
+  7  |    const inView = useInView(ref, { once: true, margin: '-100px' });
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
